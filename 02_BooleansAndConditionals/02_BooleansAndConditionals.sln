@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_BooleansAndConditionals", "02_BooleansAndConditionals\02_BooleansAndConditionals.csproj", "{3E356AD0-6459-4B51-97C6-1A8DD99FE332}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E356AD0-6459-4B51-97C6-1A8DD99FE332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E356AD0-6459-4B51-97C6-1A8DD99FE332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E356AD0-6459-4B51-97C6-1A8DD99FE332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E356AD0-6459-4B51-97C6-1A8DD99FE332}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29B0EB7B-D92E-4C9F-8A12-517B7E730C1B}
+	EndGlobalSection
+EndGlobal
