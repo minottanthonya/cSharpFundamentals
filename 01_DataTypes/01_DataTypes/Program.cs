@@ -50,6 +50,30 @@ namespace _01_DataTypes
             decimal dd = 7.80m;
 
             int? ni = null; // When there is a ? afterwards it means the value can be null. When there is a ? afterwards it means the value can be null. 
+
+            // Strings
+
+            // 1      2            3
+            string school = "Eleven Fifty";
+
+            // 1. Data Type
+            // 2. Variable Name
+            // 3. Associated Value
+
+            string firstName;
+            string lastName;
+            string occupation;
+?
+            firstName = "Charlie";
+            lastName = "Brown";
+            occupation = "Stuntman";
+?
+            string fullName = firstName + " " + lastName;
+?
+            Console.WriteLine(fullName);
+?
+            //String Interpolation
+            Console.WriteLine("Name: {0}" + "\n" + "Occupation: {1}", fullName, occupation);
         }
     }
 }
