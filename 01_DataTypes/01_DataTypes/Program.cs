@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -63,17 +63,50 @@ namespace _01_DataTypes
             string firstName;
             string lastName;
             string occupation;
-?
+​
             firstName = "Charlie";
             lastName = "Brown";
             occupation = "Stuntman";
-?
+​
             string fullName = firstName + " " + lastName;
-?
+​
             Console.WriteLine(fullName);
-?
-            //String Interpolation
+​
+            // String Interpolation
             Console.WriteLine("Name: {0}" + "\n" + "Occupation: {1}", fullName, occupation);
+
+            // String Manipulation
+
+            string first = "The cars we sell are ";
+            string second = "BMW, Lexus, and Mercedes.";
+            Console.WriteLine(first + second);
+​
+                //result: The cars we sell are BMW, Lexus, and Mercedes.
+
+            //Composite Formatting 
+
+            string firstName = "Nancy";
+            string lastName = "St. Stacey";
+            Console.WriteLine("Her name is {0} {1}.", firstName, lastName);
+​
+                //result: Her name is Nancy St. Stacey.
+
+            // More String Interpolation
+
+            string firstName = "Jenn";
+            string lastName = "Williams";
+            Console.WriteLine($"Her name is {firstName} {lastName}");
+​
+                //result: Her name is Jenn Williams.
+
+            // Spliting up the string into an array
+
+            Console.WriteLine("Type a word");
+            string word = Console.ReadLine();
+            char[] wordArray = word.ToCharArray();
+            Array.Reverse(wordArray);
+            string reversedWord = new string(wordArray);
+            Console.WriteLine(reversedWord);
         }
     }
 }
