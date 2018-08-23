@@ -107,6 +107,23 @@ namespace _01_DataTypes
             Array.Reverse(wordArray);
             string reversedWord = new string(wordArray);
             Console.WriteLine(reversedWord);
+
+            // Integers
+
+            //  1   2   3
+
+            int i = 0;
+
+            // 1. Data Type
+            // 2. Variable Name
+            // 3. Value Associated to Data type
+
+            // Operators
+
+            Console.WriteLine(5 + 2) //result = 7
+            Console.WriteLine(10 - 6) //result = 4
+            Console.WriteLine(2 * 3) //result = 6
+            Console.WriteLine(10 / 2) //result = 5
         }
     }
 }
