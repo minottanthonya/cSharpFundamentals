@@ -124,6 +124,8 @@ namespace _01_DataTypes
             Console.WriteLine(10 - 6); //result = 4
             Console.WriteLine(2 * 3); //result = 6
             Console.WriteLine(10 / 2); //result = 5
+
+            // Integers 
         }
     }
 }
