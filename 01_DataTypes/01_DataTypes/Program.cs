@@ -126,6 +126,7 @@ namespace _01_DataTypes
             Console.WriteLine(10 / 2); //result = 5
 
             // Modulus 
+            // This is not a percentage, but the remainder when two numbers are divided.
 
             Console.WriteLine(10 % 2) //result = 0 (10/2 = 5 w/ remainder of 0)
             Console.WriteLine(10 % 9) //result = 1 (10/9 = 1 w/ remainder of 1)
