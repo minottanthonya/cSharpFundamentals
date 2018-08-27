@@ -133,7 +133,58 @@ namespace _01_DataTypes
             Console.WriteLine(16 % 3) //result = 1 (16/3 = 5 w/ remainder of 1)
             Console.WriteLine(19 % 5) //result = 4 (19/5 = 3 w/ remainder of 4)
 
-            // Type Conversion
+            // Type conversion
+
+            // Implied Type Conversion 
+                     double a = 5673.74;
+            int i;
+​
+            // cast double to int.
+            i = (int)d;
+​
+            Console.WriteLine(i);
+
+            // Explicit Conversion
+
+            int i = 75;
+            bool b = true;
+​
+            Console.WriteLine(i.ToString());
+            Console.WriteLine(b.ToString());
+
+            // Parse
+
+            string text = "500";
+            int num = int.Parse(text);
+            Console.WriteLine(num);
+
+            Console.WriteLine("How are you today on a scale of 1-10?");
+            int feelingNumber = Convert.ToInt32(Console.ReadLine());
+​
+            if (feelingNumber >= 8 && feelingNumber <= 10)
+            {
+                Console.WriteLine("Great!");
+            }
+​
+            else if (feelingNumber == 5)
+            {
+                Console.WriteLine("eh");
+            }
+​
+            else if (feelingNumber <= 4 && feelingNumber >= 1)
+            {
+                Console.WriteLine("sorry");
+            }
+​
+            else
+            {
+                Console.WriteLine("Enter a number between 1 and 10");
+            }
+
+            int myNum = 500;
+            string myString = myNum.ToString();
+            Console.WriteLine(myString);
+
         }
     }
 }
