@@ -10,8 +10,17 @@ namespace _02_BooleansAndConditionals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            // Visual Representation 
+
+            //   1        2         3
+            bool isEmployed = false;
+
+            // 1. Data type
+
+            // 2. Declaration with a variable name
+
+            // 3. Initialization with value associated to data type
+
         }
     }
 }
