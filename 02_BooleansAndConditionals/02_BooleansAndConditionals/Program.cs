@@ -21,6 +21,19 @@ namespace _02_BooleansAndConditionals
 
             // 3. Initialization with value associated to data type
 
+
+
+            // Boolean Logic: If
+
+            //1
+            int value = 5;
+            //2
+            if (value < 10)
+            {
+                //3
+                Console.WriteLine("Yes, the expression is true");
+            }
+
         }
     }
 }
