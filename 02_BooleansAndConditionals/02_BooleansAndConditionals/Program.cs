@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,6 +32,39 @@ namespace _02_BooleansAndConditionals
             {
                 //3
                 Console.WriteLine("Yes, the expression is true");
+
+
+
+             // If, Else If, and Else Statements
+
+             int value = 100 / 2;
+
+                if (value == 50)
+                {
+                    Console.WriteLine(true);
+                }
+                Console.ReadLine();
+
+                Console.WriteLine("Enter a number");
+                int UserNumber = int.Parse(Console.ReadLine());
+​
+            if (UserNumber == 1)
+                {
+                    Console.WriteLine("Your number is 1");
+                }
+                else if (UserNumber == 2)
+                {
+                    Console.WriteLine("Your number is 2");
+                }
+                else if (UserNumber == 3)
+                {
+                    Console.WriteLine("Your number is 3");
+                }
+                else
+                {
+                    Console.WriteLine("Wrong Number");
+                }
+
             }
 
         }
