@@ -85,6 +85,14 @@ namespace _02_BooleansAndConditionals
                         Console.WriteLine("Hey " + inputName + ", can I call you back in a minute?");
                         break;}
 
+            // Ternary Operators
+            // Simply a different way to write if statements. 
+
+                int number = 10;
+                //1     //2       //3               //4
+                string response = ((number == 7) ? "The number is 7." : "The number is not 7.");
+                Console.WriteLine(response);
+
 
             }
         }
