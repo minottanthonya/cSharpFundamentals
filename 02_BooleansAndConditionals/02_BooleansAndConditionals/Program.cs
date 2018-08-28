@@ -93,7 +93,13 @@ namespace _02_BooleansAndConditionals
                 string response = ((number == 7) ? "The number is 7." : "The number is not 7.");
                 Console.WriteLine(response);
 
+                // 1. We have an expression asking if the number is 7.
 
+                // 2. Then, we use the ternary operator ? to allow us to set up a comparison.
+
+                // 3. Before the colon, we show this if it is true.
+
+                // 4. If false, the value is what we have after the colon. 
             }
         }
     }
