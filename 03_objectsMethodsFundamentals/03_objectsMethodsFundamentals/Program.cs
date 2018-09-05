@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,17 +20,63 @@ namespace _03_objectsMethodsFundamentals
     // 4. Body of Class
 
 
+    // Visualizing properties
+
+    public class House
+    {
+        //       1      2      3           4
+                public int squarefeet { get; set; }
+    }
+
+    // 1. Access Modifier
+    // 2. Property DataType
+    // 3. Name of Property
+    // 4. Accessor
+
+    // Accessors are the second half of the syntax used when writing a property. It looks like this { get; set; }.
+
+
     class Program
     {
         static void Main(string[] args)
         {
+            //Instantiating the objects
             Donut dougDonut = new Donut();
             Donut chrisDonut = new Donut();
             Donut nickDonut = new Donut();
+​
+            //Setting values to properties of objects
+            dougDonut.Filling = "cherry";
+            dougDonut.Price = 3;
+            dougDonut.Type = "normal";
+            dougDonut.IsSpecial = true;
+​
+            chrisDonut.Filling = "none";
+            chrisDonut.Price = 2;
+            chrisDonut.Type = "small";
+            chrisDonut.IsSpecial = false;
+​
+            nickDonut.Filling = "chocolate";
+            nickDonut.Price = 3;
+            nickDonut.Type = "normal";
+            nickDonut.IsSpecial = true;
+​
+            Console.WriteLine(nickDonut.Filling);
+
+            // Challenges
+
+            // Create an object adn give each property a value. 
+
+            //Object
+            hotel tonyHotel = new hotel();
+
+            //Properties
+
+            tonyHotel.RoomNumber = "T20";
+            tonyHotel.isAvailable = false;
+            tonyHotel.NumBeds = 2;
+
         }
-
-
-
 
     }
 }

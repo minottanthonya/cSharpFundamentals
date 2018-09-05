@@ -8,6 +8,10 @@ namespace _03_objectsMethodsFundamentals
 {
     class Donut
     {
-        //properties will go here in the next module
+        // Properties of the donut class
+        public string Filling { get; set; }
+        public int Price { get; set; }
+        public string Type { get; set; }
+        public bool IsSpecial { get; set; }
     }
 }
