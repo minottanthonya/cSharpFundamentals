@@ -9,7 +9,7 @@ namespace _03_objectsMethodsFundamentals
     // Defining a Class
 
     //    1      2     3
-    public class Company
+        public class Company
     {
         //     4
     }
@@ -24,8 +24,13 @@ namespace _03_objectsMethodsFundamentals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            Donut dougDonut = new Donut();
+            Donut chrisDonut = new Donut();
+            Donut nickDonut = new Donut();
         }
+
+
+
+
     }
 }
