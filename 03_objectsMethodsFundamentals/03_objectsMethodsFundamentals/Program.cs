@@ -44,39 +44,44 @@ namespace _03_objectsMethodsFundamentals
             Donut dougDonut = new Donut();
             Donut chrisDonut = new Donut();
             Donut nickDonut = new Donut();
-​
+
             //Setting values to properties of objects
             dougDonut.Filling = "cherry";
             dougDonut.Price = 3;
             dougDonut.Type = "normal";
             dougDonut.IsSpecial = true;
-​
+
             chrisDonut.Filling = "none";
             chrisDonut.Price = 2;
             chrisDonut.Type = "small";
             chrisDonut.IsSpecial = false;
-​
+
             nickDonut.Filling = "chocolate";
             nickDonut.Price = 3;
             nickDonut.Type = "normal";
             nickDonut.IsSpecial = true;
-​
-            Console.WriteLine(nickDonut.Filling);
+
+            // Console.WriteLine(nickDonut.Filling);
 
             // Challenges
 
-            // Create an object adn give each property a value. 
+            // Create an object and give each property a value. 
 
             //Object
+
             hotel tonyHotel = new hotel();
 
             //Properties
 
             tonyHotel.RoomNumber = "T20";
-            tonyHotel.isAvailable = false;
+            tonyHotel.IsAvailable = true;
             tonyHotel.NumBeds = 2;
 
-        }
+            // Silver Challenge
 
+
+            // Gold Challenge
+
+        }
     }
 }
