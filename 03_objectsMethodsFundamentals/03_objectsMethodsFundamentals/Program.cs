@@ -65,22 +65,20 @@ namespace _03_objectsMethodsFundamentals
 
             // Challenges
 
-            // Create an object and give each property a value. 
-
-            //Object
-
-            hotel tonyHotel = new hotel();
-
-            //Properties
+            Hotel tonyHotel = new Hotel();
 
             tonyHotel.RoomNumber = "T20";
-            tonyHotel.IsAvailable = true;
+            tonyHotel.IsAvailable = false;
             tonyHotel.NumBeds = 2;
 
             // Silver Challenge
 
+            // tonyHotel.PrintRoom();
 
             // Gold Challenge
+
+            tonyHotel.IsRoomAvailable();
+            Console.ReadLine();
 
         }
     }

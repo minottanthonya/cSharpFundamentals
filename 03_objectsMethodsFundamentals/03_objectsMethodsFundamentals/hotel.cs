@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _03_objectsMethodsFundamentals
 {
-    class hotel
+    class Hotel
     {
         // Properties
 
@@ -19,12 +19,11 @@ namespace _03_objectsMethodsFundamentals
         public void PrintRoom()
         {
             Console.WriteLine("Your room number is " + this.RoomNumber);
-            Console.ReadLine();
         }
 
         // Gold Challenge
 
-        public hotel IsRoomAvailable()
+        public void IsRoomAvailable()
         {
             if(this.IsAvailable)
             {
@@ -32,9 +31,8 @@ namespace _03_objectsMethodsFundamentals
                 this.IsAvailable = false;
             } else
             {
-                Console.WriteLine("I;m sorry, but room " + this.RoomNumber + " is not available tonight. Would you like to try a different room?");
+                Console.WriteLine("I'm sorry, but room " + this.RoomNumber + " is not available tonight. Would you like to try a different room?");
             }
-            return this;
         }
 
 
