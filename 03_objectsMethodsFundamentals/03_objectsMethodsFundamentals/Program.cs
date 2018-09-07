@@ -88,7 +88,7 @@ namespace _03_objectsMethodsFundamentals
             {
                 return numOne * numTwo;
             }
-​
+            
             Console.WriteLine(Multiply(5, 2));
 
         }
