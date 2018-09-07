@@ -80,6 +80,17 @@ namespace _03_objectsMethodsFundamentals
             tonyHotel.IsRoomAvailable();
             Console.ReadLine();
 
+            // Methods 
+
+            // Example of a method
+
+            int Multiply(int numOne, int numTwo)
+            {
+                return numOne * numTwo;
+            }
+​
+            Console.WriteLine(Multiply(5, 2));
+
         }
     }
 }
