@@ -111,6 +111,16 @@ namespace _03_objectsMethodsFundamentals
             
             Console.WriteLine(chrisStudent.FirstName + ": " + chrisStudent.Age);
 
+            // Access Modifiers
+
+            // There are five main modifiers. 
+
+            //    Keyword                  Applicable To          Meaning
+            // 1. public -                 Class, Member          No Restrictions.
+            // 2. protected -              Member                 Limited to class and derived class. 
+            // 3. private -                Member                 Limited to class. 
+            // 4. internal -               Class, Member          Limited to current assembly. 
+            // 5. protected internal -     Member                 Limted to current assembly and derived types. 
 
 
             //This read line will read all the console writelines for the entire program. 
