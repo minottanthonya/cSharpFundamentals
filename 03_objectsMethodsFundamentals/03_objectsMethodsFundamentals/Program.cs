@@ -93,16 +93,28 @@ namespace _03_objectsMethodsFundamentals
 
             // Example of Method Overloading
 
-            Console.ReadLine();
-
             Player newPlayer = new Player();
 
             newPlayer.Attack();
             newPlayer.Attack(10);
             newPlayer.Attack(6, "Greatsword");
 
+            // Constructor Section
+
+            Student carrStudent = new Student("Carr");
+            
+            Student caliStudent = new Student("Carr", "O'Connor");
+            
+            Student carolineStudent = new Student("Caroline", "O'Connor", 8);
+            
+            Student chrisStudent = new Student("Chris", "Weiper", 5, 11);
+            
+            Console.WriteLine(chrisStudent.FirstName + ": " + chrisStudent.Age);
+
+
 
             //This read line will read all the console writelines for the entire program. 
+
             Console.ReadLine();
         }
     }
