@@ -78,7 +78,6 @@ namespace _03_objectsMethodsFundamentals
             // Gold Challenge
 
             tonyHotel.IsRoomAvailable();
-            Console.ReadLine();
 
             // Methods 
 
@@ -89,8 +88,22 @@ namespace _03_objectsMethodsFundamentals
                 return numOne * numTwo;
             }
             
-            Console.WriteLine(Multiply(5, 2));
+            //Console.WriteLine(Multiply(5, 2));
 
+
+            // Example of Method Overloading
+
+            Console.ReadLine();
+
+            Player newPlayer = new Player();
+
+            newPlayer.Attack();
+            newPlayer.Attack(10);
+            newPlayer.Attack(6, "Greatsword");
+
+
+            //This read line will read all the console writelines for the entire program. 
+            Console.ReadLine();
         }
     }
 }
