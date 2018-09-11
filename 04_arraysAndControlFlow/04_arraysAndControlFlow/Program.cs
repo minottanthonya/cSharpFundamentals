@@ -15,20 +15,33 @@ namespace _04_arraysAndControlFlow
             decimal[] bankBalance = new decimal[10];
             bankBalance[0] = 4500.0m;
 
+            // Standard Array
+
             string[] food = new string[4];
             food[0] = "Macaroni";
             food[1] = "Pasta";
             food[2] = "Pizza";
             food[3] = "Popcorn";
 
-            Console.WriteLine(food[1]);
+            // Another example of an Array
+
+            int[] integer2 = new int[5] { 10, 40, 50, 20, 40 };
+
+            Console.WriteLine(integer2[4]);
             Console.ReadLine();
+
+            // LOOPS
+
+            // Challenges
+
         }
     }
 }
 
 
 // Examples
+
+//   Array
 
 //      1       2     3    4    5
 //   string[] food = new string[4];
@@ -44,3 +57,62 @@ namespace _04_arraysAndControlFlow
 // 4. Will hold string values
 // 5. The array will hold 4 different values
 // 6. Putting values into the array.For the first example, we say the 0 index of this array will hold the value Macaroni.
+
+
+//         While Loop
+
+//          1
+//         int number = 0;
+//          2     3
+//         while(number <= 100)
+//          {
+//                4
+//              Console.WriteLine(number);
+//              number = number + 5;
+//          }
+//          Console.ReadLine();
+
+// 1. Declaring that number is going to be equal to 0
+// 2. Declaring that this is a while loop
+// 3. The condition that must be true for the loop to continue to run. "while this is true, continue the loop"
+// 4. Indicating what will happen each loop.  We will print number to the console and add 5 to the index
+
+
+//          For Loop
+
+//           1
+//          int number = 100;
+//           2      3        4          5
+//          for(int i = 0; i <= number; i++)
+//             6
+//            Console.WriteLine(i);
+//            Console.ReadLine();
+
+// 1. Declaring that number is equal to 100
+// 2. Declaring that this is a for loop
+// 3. Declaring that the for loop will start at 0
+// 4. Declaring that as long as the index is less than number, continue with the loop
+// 5. Add one to the index after each loop
+// 6. Print each number to the console
+
+
+//          For Each Loop
+
+//            1
+//          ArrayList nameList = new ArrayList();
+//          nameList.Add("Paul O");
+//              nameList.Add("Kenn P");
+//              nameList.Add("Jenn A");
+//            2        3          
+//          foreach (string name in nameList)
+//                  4
+//              Console.WriteLine(name);
+//              Console.ReadLine();
+
+// 1. The array we built and will use a foreach loop to grab data
+// 2. Declaring that this is a foreach loop
+// 3. For each string in our array we will call it name
+// 4. After each instance of the loop it will print name
+
+// Note: you will need to bring in a using statement for ArrayList() to work 1. 
+// Hover over ArrayList() 2. Press the CTRL key and the . key 3. Press Enter and it will bring in System.Collections
