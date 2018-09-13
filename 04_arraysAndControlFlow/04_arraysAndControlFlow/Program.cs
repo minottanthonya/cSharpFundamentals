@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,9 +34,19 @@ namespace _04_arraysAndControlFlow
 
             // Challenges
 
-            Console.WriteLine();
+            // Dictionary 
+            IDictionary<string, string> goldenGirls = new Dictionary<string, string>();
+            goldenGirls.Add("Rose", "Sweet");
+            goldenGirls.Add("Dorothy", "Sharp");
+            goldenGirls.Add("Blanche", "Southern");
+            goldenGirls.Add("Sophia", "Sassy");
+            
+            foreach (KeyValuePair<string, string> pair in goldenGirls)
+            {
+                Console.WriteLine("{0}: {1}", pair.Key, pair.Value);
+            }
 
-        }
+            }
     }
 }
 
@@ -119,9 +129,9 @@ namespace _04_arraysAndControlFlow
 // Hover over ArrayList() 2. Press the CTRL key and the . key 3. Press Enter and it will bring in System.Collections
 
 
-// Example of a Dictionary 
+//         Example of a Dictionary 
 
-//          1             2            3     4
+//          1           2            3     4
 //         IDictionary<int, string> dict = new Dictionary<int, string>();
 //           5     6    7
 //          dict.Add(1,"One");
