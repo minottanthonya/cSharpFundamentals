@@ -117,3 +117,21 @@ namespace _04_arraysAndControlFlow
 
 // Note: you will need to bring in a using statement for ArrayList() to work 1. 
 // Hover over ArrayList() 2. Press the CTRL key and the . key 3. Press Enter and it will bring in System.Collections
+
+
+// Example of a Dictionary 
+
+//          1             2            3     4
+//         IDictionary<int, string> dict = new Dictionary<int, string>();
+//           5     6    7
+//          dict.Add(1,"One");
+//          dict.Add(2,"Two");
+//          dict.Add(3,"Three");
+
+// 1. Declaring that you are building a dictionary
+// 2. The parameter types for your dictionary.A related int and string value
+// 3. The name of your dictionary
+// 4. Instantiation of a new dictionary
+// 5. Accessing your dictionary by just typing the name
+// 6. Using the.Add() function to begin adding data to your dictionary
+// 7. Key/Value pairs you are adding to your dictionary
