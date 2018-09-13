@@ -34,6 +34,12 @@ namespace _04_arraysAndControlFlow
 
             // Challenges
 
+            for (int i = 500; i <= 1000; i++)
+            {
+                Console.WriteLine(i);
+                Console.ReadLine();
+            }
+
             // Dictionary 
             IDictionary<string, string> goldenGirls = new Dictionary<string, string>();
             goldenGirls.Add("Rose", "Sweet");
@@ -53,6 +59,7 @@ namespace _04_arraysAndControlFlow
 // Examples
 
 //   Array
+
 
 //      1       2     3    4    5
 //   string[] food = new string[4];
