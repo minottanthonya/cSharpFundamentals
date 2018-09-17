@@ -28,7 +28,6 @@ namespace _04_arraysAndControlFlow
             int[] integer2 = new int[5] { 10, 40, 50, 20, 40 };
 
             Console.WriteLine(integer2[4]);
-            Console.ReadLine();
 
             // LOOPS
 
@@ -37,9 +36,40 @@ namespace _04_arraysAndControlFlow
             for (int i = 500; i <= 1000; i++)
             {
                 Console.WriteLine(i);
-                Console.ReadLine();
             }
 
+            // Silver Challenge
+            // Create a for loop that prints the numbers from 0-100 by 5's
+
+            for (int x = 0; x <= 100; x+= 5)
+            {
+                Console.WriteLine(x);
+            }
+
+            //Gold
+
+            for (int z = 1; z <= 100; z++)
+            {
+                if (z % 3 == 0 && z % 5 == 0) 
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+
+                else if (z % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                else if (z % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                else
+                {
+                    Console.WriteLine(z);
+                }
+            }
+
+            Console.ReadLine();
             // Dictionary 
             IDictionary<string, string> goldenGirls = new Dictionary<string, string>();
             goldenGirls.Add("Rose", "Sweet");
@@ -52,6 +82,7 @@ namespace _04_arraysAndControlFlow
                 Console.WriteLine("{0}: {1}", pair.Key, pair.Value);
             }
 
+            Console.ReadLine();
             }
     }
 }
