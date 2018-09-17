@@ -70,7 +70,10 @@ namespace _04_arraysAndControlFlow
             }
 
             Console.ReadLine();
+
+
             // Dictionary 
+
             IDictionary<string, string> goldenGirls = new Dictionary<string, string>();
             goldenGirls.Add("Rose", "Sweet");
             goldenGirls.Add("Dorothy", "Sharp");
@@ -81,6 +84,12 @@ namespace _04_arraysAndControlFlow
             {
                 Console.WriteLine("{0}: {1}", pair.Key, pair.Value);
             }
+
+            // Lists
+
+
+
+
 
             Console.ReadLine();
             }
@@ -183,3 +192,19 @@ namespace _04_arraysAndControlFlow
 // 5. Accessing your dictionary by just typing the name
 // 6. Using the.Add() function to begin adding data to your dictionary
 // 7. Key/Value pairs you are adding to your dictionary
+
+
+//          Example of a List
+
+//          1     2     3         4
+//          List<int> numbers = new List<int>();
+//               5 
+//            numbers.Add(1);
+//            numbers.Add(2);
+//            numbers.Add(3);
+
+// 1. Declaring that you are building a list
+// 2. The datatype your list will hold
+// 3. The name of your list
+// 4. Initializing a new list
+// 5. Adding values to your list using the function.Add()
