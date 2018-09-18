@@ -87,9 +87,10 @@ namespace _04_arraysAndControlFlow
 
             // Lists
 
-
-
-
+            List<int> numbers = new List<int>();
+            numbers.Add(1);
+            numbers.Add(2);
+            numbers.Add(3);
 
             Console.ReadLine();
             }
