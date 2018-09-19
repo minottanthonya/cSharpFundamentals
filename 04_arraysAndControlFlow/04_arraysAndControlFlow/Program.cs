@@ -92,6 +92,10 @@ namespace _04_arraysAndControlFlow
             numbers.Add(2);
             numbers.Add(3);
 
+            List<int> numbers2 = new List<int>();
+            int[] array = new int[] { 1, 2, 3 };
+            numbers2.AddRange(array);
+
             Console.ReadLine();
             }
     }
